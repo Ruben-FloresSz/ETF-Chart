@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from src.modules import custom_functions as cf 
 
-etf = cf.data_dict(R"C:\Users\rubof\Desktop\KaxaNuk\Retornos ETF´s\Data")
+etf = cf.data_dict(R"Data")
 
 def annual_return(etf_dict):
     annual_returns = pd.DataFrame()
